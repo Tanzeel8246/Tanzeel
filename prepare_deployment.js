@@ -291,10 +291,10 @@ GOOGLE_CLIENT_SECRET="${process.env.GOOGLE_CLIENT_SECRET || ''}"
 
 GROQ_API_KEYS="${process.env.GROQ_API_KEYS || ''}"
 GEMINI_API_KEYS="${process.env.GEMINI_API_KEYS || ''}"
-AI_MODEL_TANZEEL="${process.env.AI_MODEL_TANZEEL || 'qwen/qwen3.8-27b'}"
-AI_MODEL_TRANSLATOR="${process.env.AI_MODEL_TRANSLATOR || 'qwen/qwen3.8-27b'}"
-AI_MODEL_TUTOR="${process.env.AI_MODEL_TUTOR || 'qwen/qwen3.8-27b'}"
-AI_MODEL_KHUTBAT="${process.env.AI_MODEL_KHUTBAT || 'qwen/qwen3.8-27b'}"
+AI_MODEL_TANZEEL="${process.env.AI_MODEL_TANZEEL || 'llama-3.3-70b-versatile'}"
+AI_MODEL_TRANSLATOR="${process.env.AI_MODEL_TRANSLATOR || 'llama-3.3-70b-versatile'}"
+AI_MODEL_TUTOR="${process.env.AI_MODEL_TUTOR || 'llama-3.3-70b-versatile'}"
+AI_MODEL_KHUTBAT="${process.env.AI_MODEL_KHUTBAT || 'llama-3.3-70b-versatile'}"
 AI_MODEL_GEMINI="${process.env.AI_MODEL_GEMINI || 'gemini-2.0-flash'}"
 `;
 

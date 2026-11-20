@@ -44,10 +44,10 @@ const DEFAULT_SETTINGS: SiteSettings = {
 
   groqApiKeys: process.env.GROQ_API_KEYS || '',
   geminiApiKeys: process.env.GEMINI_API_KEYS || '',
-  aiModelTanzeel: process.env.AI_MODEL_TANZEEL || 'qwen/qwen3.8-27b',
-  aiModelTranslator: process.env.AI_MODEL_TRANSLATOR || 'qwen/qwen3.8-27b',
-  aiModelTutor: process.env.AI_MODEL_TUTOR || 'qwen/qwen3.8-27b',
-  aiModelKhutbat: process.env.AI_MODEL_KHUTBAT || 'qwen/qwen3.8-27b',
+  aiModelTanzeel: process.env.AI_MODEL_TANZEEL || 'llama-3.3-70b-versatile',
+  aiModelTranslator: process.env.AI_MODEL_TRANSLATOR || 'llama-3.3-70b-versatile',
+  aiModelTutor: process.env.AI_MODEL_TUTOR || 'llama-3.3-70b-versatile',
+  aiModelKhutbat: process.env.AI_MODEL_KHUTBAT || 'llama-3.3-70b-versatile',
   aiModelGemini: process.env.AI_MODEL_GEMINI || 'gemini-2.0-flash',
 
   googleClientId: process.env.GOOGLE_CLIENT_ID || '',

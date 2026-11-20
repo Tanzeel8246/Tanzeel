@@ -46,15 +46,15 @@ function getModelForBot(botId: string): string {
   const settings = getSettings();
   switch (id) {
     case 'tanzeel-ai':
-      return settings.aiModelTanzeel || process.env.AI_MODEL_TANZEEL || 'qwen/qwen3.8-27b';
+      return settings.aiModelTanzeel || process.env.AI_MODEL_TANZEEL || 'llama-3.3-70b-versatile';
     case 'urdu-translator':
-      return settings.aiModelTranslator || process.env.AI_MODEL_TRANSLATOR || 'qwen/qwen3.8-27b';
+      return settings.aiModelTranslator || process.env.AI_MODEL_TRANSLATOR || 'llama-3.3-70b-versatile';
     case 'master-tutor':
-      return settings.aiModelTutor || process.env.AI_MODEL_TUTOR || 'qwen/qwen3.8-27b';
+      return settings.aiModelTutor || process.env.AI_MODEL_TUTOR || 'llama-3.3-70b-versatile';
     case 'khutbat-e-jumuah':
-      return settings.aiModelKhutbat || process.env.AI_MODEL_KHUTBAT || 'qwen/qwen3.8-27b';
+      return settings.aiModelKhutbat || process.env.AI_MODEL_KHUTBAT || 'llama-3.3-70b-versatile';
     default:
-      return settings.aiModelTanzeel || 'qwen/qwen3.8-27b';
+      return settings.aiModelTanzeel || 'llama-3.3-70b-versatile';
   }
 }
 

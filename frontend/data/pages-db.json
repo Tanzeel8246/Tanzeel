@@ -1,0 +1,49 @@
+{
+  "privacy": {
+    "id": "privacy",
+    "title": "Privacy Policy",
+    "lastUpdated": "November 11, 2026",
+    "subtitle": "Learn how CodeHubb Tools protects your privacy, manages cookies, and processes files locally without storing personal data.",
+    "content": "",
+    "metaTitle": "Privacy Policy - CodeHubb Tools",
+    "metaDescription": "Read our zero-server-storage privacy policy, Google AdSense DART cookies disclosure, and GDPR/CCPA data protection rights.",
+    "updatedAt": "2026-11-11T14:00:00.000Z"
+  },
+  "terms": {
+    "id": "terms",
+    "title": "Terms of Service",
+    "lastUpdated": "November 11, 2026",
+    "subtitle": "Legal agreement governing acceptable usage, intellectual property rights, and platform terms.",
+    "content": "",
+    "metaTitle": "Terms of Service - CodeHubb Tools",
+    "metaDescription": "User terms, 100% intellectual property retention guarantee, and acceptable usage policy.",
+    "updatedAt": "2026-11-11T14:00:00.000Z"
+  },
+  "about": {
+    "id": "about",
+    "title": "Free, Fast & Privacy-First Digital Utilities",
+    "subtitle": "CodeHubb Tools was engineered to eliminate third-party cloud conversion servers by processing digital media, documents, and code entirely client-side.",
+    "content": "",
+    "metaTitle": "About Us - CodeHubb Tools Engineering Philosophy",
+    "metaDescription": "Discover our mission, high-speed WebAssembly architecture, and client-side processing model.",
+    "updatedAt": "2026-11-11T14:00:00.000Z"
+  },
+  "contact": {
+    "id": "contact",
+    "title": "Get in Touch with CodeHubb Tools",
+    "subtitle": "Have a feature request, bug report, or enterprise inquiry? Send us a message and our engineering team will respond within 24 hours.",
+    "content": "",
+    "metaTitle": "Contact Us - CodeHubb Tools Support",
+    "metaDescription": "Reach our team directly for bug reports, tool requests, or technical support.",
+    "updatedAt": "2026-11-11T14:00:00.000Z"
+  },
+  "home": {
+    "id": "home",
+    "title": "Every tool you could need. All in one place.",
+    "subtitle": "Free, secure, and fast tools to boost your productivity. All processed privately inside your browser.",
+    "content": "",
+    "metaTitle": "CodeHubb Tools - 88+ Free Online Productivity Utilities",
+    "metaDescription": "Comprehensive suite of PDF, Image, Developer, and AI tools with zero server storage.",
+    "updatedAt": "2026-11-11T14:00:00.000Z"
+  }
+}

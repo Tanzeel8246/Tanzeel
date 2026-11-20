@@ -1,0 +1,105 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* Enable class-based dark mode for next-themes */
+@custom-variant dark (&:is(.dark, .dark *));
+
+:root {
+  /* Default Theme: Indigo (since the UI was designed with indigo) */
+  --theme-50: #eef2ff;
+  --theme-100: #e0e7ff;
+  --theme-200: #c7d2fe;
+  --theme-300: #a5b4fc;
+  --theme-400: #818cf8;
+  --theme-500: #6366f1;
+  --theme-600: #4f46e5;
+  --theme-700: #4338ca;
+  --theme-800: #3730a3;
+  --theme-900: #312e81;
+  --theme-950: #1e1b4b;
+}
+
+[data-theme="blue"] {
+  --theme-50: #eff6ff;
+  --theme-100: #dbeafe;
+  --theme-200: #bfdbfe;
+  --theme-300: #93c5fd;
+  --theme-400: #60a5fa;
+  --theme-500: #3b82f6;
+  --theme-600: #2563eb;
+  --theme-700: #1d4ed8;
+  --theme-800: #1e40af;
+  --theme-900: #1e3a8a;
+  --theme-950: #172554;
+}
+
+[data-theme="emerald"] {
+  --theme-50: #ecfdf5;
+  --theme-100: #d1fae5;
+  --theme-200: #a7f3d0;
+  --theme-300: #6ee7b7;
+  --theme-400: #34d399;
+  --theme-500: #10b981;
+  --theme-600: #059669;
+  --theme-700: #047857;
+  --theme-800: #065f46;
+  --theme-900: #064e3b;
+  --theme-950: #022c22;
+}
+
+[data-theme="rose"] {
+  --theme-50: #fff1f2;
+  --theme-100: #ffe4e6;
+  --theme-200: #fecdd3;
+  --theme-300: #fda4af;
+  --theme-400: #fb7185;
+  --theme-500: #f43f5e;
+  --theme-600: #e11d48;
+  --theme-700: #be123c;
+  --theme-800: #9f1239;
+  --theme-900: #881337;
+  --theme-950: #4c0519;
+}
+
+[data-theme="orange"] {
+  --theme-50: #fff7ed;
+  --theme-100: #ffedd5;
+  --theme-200: #fed7aa;
+  --theme-300: #fdba74;
+  --theme-400: #fb923c;
+  --theme-500: #f97316;
+  --theme-600: #ea580c;
+  --theme-700: #c2410c;
+  --theme-800: #9a3412;
+  --theme-900: #7c2d12;
+  --theme-950: #431407;
+}
+
+@theme {
+  /* Premium Dark Theme Grays (Sleek Midnight/Navy tint) */
+  --color-gray-50: #fbfbfb;
+  --color-gray-100: #f4f5f7;
+  --color-gray-200: #e5e7eb;
+  --color-gray-300: #d1d5dc;
+  --color-gray-400: #9ba1ad;
+  --color-gray-500: #6b7280;
+  --color-gray-600: #49505c;
+  --color-gray-700: #2b2f36;
+  --color-gray-800: #181a1f;
+  --color-gray-900: #0d0f12;
+  --color-gray-950: #060709;
+
+  /* Override Tailwind's default Indigo palette with our dynamic variables */
+  /* This prevents needing to find/replace "indigo" classes across the whole codebase */
+  --color-indigo-50: var(--theme-50);
+  --color-indigo-100: var(--theme-100);
+  --color-indigo-200: var(--theme-200);
+  --color-indigo-300: var(--theme-300);
+  --color-indigo-400: var(--theme-400);
+  --color-indigo-500: var(--theme-500);
+  --color-indigo-600: var(--theme-600);
+  --color-indigo-700: var(--theme-700);
+  --color-indigo-800: var(--theme-800);
+  --color-indigo-900: var(--theme-900);
+  --color-indigo-950: var(--theme-950);
+}

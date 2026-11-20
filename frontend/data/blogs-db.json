@@ -1,0 +1,28 @@
+[
+  {
+    "slug": "how-to-merge-pdf-files-securely",
+    "title": "The Ultimate Guide to Merging and Organizing PDF Files Securely Online",
+    "excerpt": "Learn how modern WebAssembly technology allows you to combine multiple PDF documents in your browser without uploading confidential data to cloud servers.",
+    "category": "PDF Productivity",
+    "readTime": "4 min read",
+    "publishedAt": "2026-11-10",
+    "author": {
+      "name": "CodeHubb Engineering",
+      "role": "Core Platform Team"
+    },
+    "content": "## Why Traditional Cloud PDF Mergers Risk Your Data\n\nWhen combining sensitive business contracts, financial statements, bank records, or personal tax returns, uploading your files to third-party conversion servers creates an unnecessary privacy risk. Most online utilities upload your files, store them on temporary disk partitions, and rely on delayed background cleanup tasks.\n\n## The WebAssembly Alternative: Browser-Native Merging\n\nAt **CodeHubb Tools**, our [Merge PDF](/tools/merge-pdf) engine runs entirely on client-side WebAssembly and JavaScript using `pdf-lib`. Here is why that matters:\n\n1. **Zero Server Uploads**: The moment you select your PDF files, they are read directly into your device's RAM memory buffers. No bytes travel across network wires to an external server.\n2. **Instant Processing**: Because you don't have to wait for upload and download progress bars, even 100-page documents combine in under two seconds.\n3. **No File Size Caps**: Traditional sites cap free users at 10MB or 20MB. Because CodeHubb Tools uses your own computer's memory, you can merge high-resolution scanned books without arbitrary barriers.\n\n## Step-by-Step: Merging Documents in 3 Simple Steps\n\n1. **Select Documents**: Go to [Merge PDF](/tools/merge-pdf) and drag or choose two or more PDF files from your desktop or phone.\n2. **Review Order**: Check the uploaded documents list to confirm the order of pages.\n3. **Click & Save**: Click **Merge PDFs Now**. Your browser compiles the vector streams and initiates an instant download with zero watermarks.\n\n### Related Tools:\n- [Split PDF](/tools/split-pdf) — Extract every page into standalone files.\n- [Organize PDF](/tools/organize-pdf) — Visually drag, drop, and rearrange individual pages.\n- [Sign PDF](/tools/sign-pdf) — Apply custom signatures to your documents."
+  },
+  {
+    "slug": "remove-image-background-in-browser",
+    "title": "How to Remove Image Backgrounds Privately Without Photoshop",
+    "excerpt": "Discover how in-browser neural networks run segmentation models directly on your GPU to produce transparent PNGs with zero server fees.",
+    "category": "Image & Media",
+    "readTime": "5 min read",
+    "publishedAt": "2026-11-10",
+    "author": {
+      "name": "CodeHubb Creative Lab",
+      "role": "Media Processing Unit"
+    },
+    "content": "## Background Removal Without Sending Images to Big Tech\n\nRemoving backgrounds from product photos, profile portraits, and marketing banners traditionally meant either paying high subscription fees to Adobe or uploading personal images to cloud APIs that train their AI models on your private photos.\n\n## WebAssembly & WebGPU AI Models\n\nWith our [Background Remover](/tools/background-remover), CodeHubb Tools utilizes the `@imgly/background-removal` neural network running directly in your browser's WebGL / WebGPU pipeline.\n\n### Why In-Browser AI is Superior:\n- **100% Confidential**: Photos never leave your computer or phone.\n- **Uncapped Resolutions**: Process full-resolution 4K product photos without forced downscaling.\n- **Zero Cost**: Completely free with unlimited daily conversions."
+  }
+]

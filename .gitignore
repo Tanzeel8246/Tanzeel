@@ -1,0 +1,84 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!*.yarn/patches
+!*.yarn/plugins
+!*.yarn/releases
+!*.yarn/versions
+
+# Next.js Build & Runtime Outputs
+.next/
+frontend/.next/
+out/
+build/
+dist/
+deploy_tanzeel_work/
+backend/dist/
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+
+# Large Archives & Binaries (Prevent GitHub 100MB limit rejection)
+*.zip
+*.tar
+*.gz
+*.rar
+deploy_tanzeel_work.zip
+frontend/deploy_tanzeel_work.zip
+frontend/frontend_update.zip
+frontend/public.zip
+
+# ML / Neural Network Model Chunks (Provided by npm @imgly/background-removal-data)
+frontend/public/static/imgly/
+public/static/imgly/
+
+# Temporary test scripts
+scratch_test_bots.js
+test_live_chat.js
+zip.js
+
+# IDE & Editor Specific
+.vscode/
+.idea/
+.claude/
+.windsurf/
+backend/.claude/
+backend/.windsurf/
+frontend/.claude/
+frontend/.windsurf/
+
+# Environment & Sensitive Credentials (CRITICAL SECURITY GUARDRAIL)
+.env*
+frontend/.env*
+*.pem
+*.key
+
+# SQLite Database & Storage
+*.db
+*.db-journal
+*.sqlite
+frontend/prisma/*.db
+frontend/prisma/*.db-journal
+
+# Uploads & User Generated Files
+uploads/
+backend/uploads/
+*.mp4
+*.m4v
+*.avi
+*.mov
+
+# Temporary logs & debug files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+log.txt
+test.txt
+frontend/log.txt
+frontend/test.txt
+.DS_Store
+Thumbs.db

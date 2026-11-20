@@ -1,0 +1,23 @@
+{
+  "siteTitle": "CodeHubb Tools",
+  "siteDescription": "Over 88 free, fast, and secure client-side productivity utilities and AI assistants.",
+  "contactEmail": "support@tanzeel.work",
+  "supportPhone": "+92 300 1234567",
+  "adsenseClientId": "",
+  "enableAds": true,
+  "googleAnalyticsId": "",
+  "groqApiKeys": "",
+  "geminiApiKeys": "",
+  "aiModelTanzeel": "qwen/qwen3.8-27b",
+  "aiModelTranslator": "qwen/qwen3.8-27b",
+  "aiModelTutor": "qwen/qwen3.8-27b",
+  "aiModelKhutbat": "qwen/qwen3.8-27b",
+  "aiModelGemini": "gemini-2.0-flash",
+  "googleClientId": "",
+  "googleClientSecret": "",
+  "adminSecretKey": "tanzeel-admin-2026",
+  "nextauthUrl": "https://tanzeel.work",
+  "stripePublishableKey": "",
+  "stripeSecretKey": "",
+  "updatedAt": "2026-11-11T14:00:00.000Z"
+}

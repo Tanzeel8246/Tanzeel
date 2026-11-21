@@ -404,47 +404,6 @@ export default function AIImageUpscalerPage() {
           </div>
         </div>
 
-        {/* SEO Original Content & Guide Section */}
-        <section className="bg-white dark:bg-gray-800 rounded-3xl shadow-xl p-8 border border-gray-100 dark:border-gray-700 space-y-8">
-          <div>
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-              How AI Super-Resolution Upscaling Works
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="p-5 rounded-2xl bg-gray-50 dark:bg-gray-700/50 border border-gray-200 dark:border-gray-600">
-                <span className="text-indigo-600 dark:text-indigo-400 font-black text-xl mb-2 block">01</span>
-                <h3 className="font-bold text-gray-900 dark:text-white mb-2">Upload Any Photo</h3>
-                <p className="text-sm text-gray-600 dark:text-gray-400">Choose low-resolution portraits, product photography, icons, or legacy camera photos.</p>
-              </div>
-              <div className="p-5 rounded-2xl bg-gray-50 dark:bg-gray-700/50 border border-gray-200 dark:border-gray-600">
-                <span className="text-indigo-600 dark:text-indigo-400 font-black text-xl mb-2 block">02</span>
-                <h3 className="font-bold text-gray-900 dark:text-white mb-2">AI Neural Upscale</h3>
-                <p className="text-sm text-gray-600 dark:text-gray-400">Our deep learning model infers missing high-frequency details, eliminating JPEG artifacts and pixelation.</p>
-              </div>
-              <div className="p-5 rounded-2xl bg-gray-50 dark:bg-gray-700/50 border border-gray-200 dark:border-gray-600">
-                <span className="text-indigo-600 dark:text-indigo-400 font-black text-xl mb-2 block">03</span>
-                <h3 className="font-bold text-gray-900 dark:text-white mb-2">Compare &amp; Download</h3>
-                <p className="text-sm text-gray-600 dark:text-gray-400">Use the interactive Split Slider to compare edge-to-edge sharpness, then download in full PNG resolution.</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="border-t border-gray-100 dark:border-gray-700 pt-8">
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-              Frequently Asked Questions (FAQ)
-            </h2>
-            <div className="space-y-4">
-              <div className="p-4 rounded-xl bg-gray-50 dark:bg-gray-700/30">
-                <h4 className="font-bold text-gray-900 dark:text-white mb-1">What is the difference between bicubic scaling and AI Super Resolution?</h4>
-                <p className="text-sm text-gray-600 dark:text-gray-400">Standard resizing simply blurs adjacent pixels to make images larger. Our AI Super Resolution predicts textures, eyelashes, fabric weaves, and sharp geometric edges to produce genuine photographic clarity.</p>
-              </div>
-              <div className="p-4 rounded-xl bg-gray-50 dark:bg-gray-700/30">
-                <h4 className="font-bold text-gray-900 dark:text-white mb-1">Are my photos uploaded to a remote AI server?</h4>
-                <p className="text-sm text-gray-600 dark:text-gray-400">No. The neural model executes locally in your browser hardware using WebGL and WebAssembly acceleration. Your photos remain 100% private on your machine.</p>
-              </div>
-            </div>
-          </div>
-        </section>
 
       </div>
     </div>

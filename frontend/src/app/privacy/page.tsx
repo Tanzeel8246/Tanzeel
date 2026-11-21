@@ -52,7 +52,7 @@ export default function PrivacyPolicyPage() {
               1. Our Core Privacy Commitment: Zero File Retention
             </h2>
             <p>
-              At <strong>CodeHubb Tools</strong> (accessible via <code>tanzeel.work</code> and <code>tools.codehubb.com</code>), user privacy is our highest fundamental priority. Unlike traditional cloud converter websites, the vast majority of our online utilities—including <strong>PDF merging, splitting, signing, OCR, SVG conversions, image editing, and code formatting</strong>—execute directly within your device&apos;s browser memory utilizing modern client-side technologies (WebAssembly, HTML5 Canvas, and Web Workers).
+              At <strong>CodeHubb Tools</strong> (accessible via <code>tanzeel.work</code>), user privacy is our highest fundamental priority. Unlike traditional cloud converter websites, the vast majority of our online utilities—including <strong>PDF merging, splitting, signing, OCR, SVG conversions, image editing, and code formatting</strong>—execute directly within your device&apos;s browser memory utilizing modern client-side technologies (WebAssembly, HTML5 Canvas, and Web Workers).
             </p>
             <div className="p-4 bg-indigo-50 dark:bg-indigo-900/20 border-l-4 border-indigo-500 rounded-r-xl my-4 text-sm">
               <strong>Zero Server Storage Guarantee:</strong> Your confidential documents, financial statements, contracts, personal photos, and passwords processed through our client-side tools are <em>never</em> uploaded to, transmitted across, or stored on our servers. When you close your browser tab, the temporary memory buffer is completely cleared.

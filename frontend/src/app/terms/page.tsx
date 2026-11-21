@@ -52,7 +52,7 @@ export default function TermsOfServicePage() {
               1. Acceptance of Terms
             </h2>
             <p>
-              By accessing, browsing, or utilizing the web applications, APIs, and utilities hosted on <strong>CodeHubb Tools</strong> (<code>tanzeel.work</code> and <code>tools.codehubb.com</code>), you acknowledge that you have read, understood, and agreed to be legally bound by these Terms of Service. If you do not agree with any portion of these terms, you must refrain from using the website.
+              By accessing, browsing, or utilizing the web applications, APIs, and utilities hosted on <strong>CodeHubb Tools</strong> (<code>tanzeel.work</code>), you acknowledge that you have read, understood, and agreed to be legally bound by these Terms of Service. If you do not agree with any portion of these terms, you must refrain from using the website.
             </p>
           </section>
 

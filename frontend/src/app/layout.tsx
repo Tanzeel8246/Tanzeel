@@ -86,7 +86,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebSite",
               "name": "CodeHubb Tools",
-              "url": "https://tools.codehubb.com",
+              "url": "https://tanzeel.work",
               "description": "A comprehensive suite of free, client-side tools for developers and creators.",
               "publisher": {
                 "@type": "Organization",

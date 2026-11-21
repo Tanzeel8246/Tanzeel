@@ -216,69 +216,6 @@ export default function SplitPdfPage() {
           )}
         </div>
 
-        {/* SEO Original Content & Guide Section */}
-        <section className="bg-white dark:bg-gray-800 rounded-3xl shadow-xl p-8 border border-gray-100 dark:border-gray-700 space-y-8">
-          <div>
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-              How to Split PDF Pages Online
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="p-5 rounded-2xl bg-gray-50 dark:bg-gray-700/50 border border-gray-200 dark:border-gray-600">
-                <span className="text-indigo-600 dark:text-indigo-400 font-black text-xl mb-2 block">01</span>
-                <h3 className="font-bold text-gray-900 dark:text-white mb-2">Upload Document</h3>
-                <p className="text-sm text-gray-600 dark:text-gray-400">Select any multi-page PDF document from your mobile or desktop device.</p>
-              </div>
-              <div className="p-5 rounded-2xl bg-gray-50 dark:bg-gray-700/50 border border-gray-200 dark:border-gray-600">
-                <span className="text-indigo-600 dark:text-indigo-400 font-black text-xl mb-2 block">02</span>
-                <h3 className="font-bold text-gray-900 dark:text-white mb-2">Extract Pages</h3>
-                <p className="text-sm text-gray-600 dark:text-gray-400">Click &quot;Split into Separate Pages Now&quot; to unpack each page into an independent PDF.</p>
-              </div>
-              <div className="p-5 rounded-2xl bg-gray-50 dark:bg-gray-700/50 border border-gray-200 dark:border-gray-600">
-                <span className="text-indigo-600 dark:text-indigo-400 font-black text-xl mb-2 block">03</span>
-                <h3 className="font-bold text-gray-900 dark:text-white mb-2">Download ZIP</h3>
-                <p className="text-sm text-gray-600 dark:text-gray-400">Download all cleanly organized, numbered PDF pages packed into a convenient ZIP archive.</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="border-t border-gray-100 dark:border-gray-700 pt-8">
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-              Key Features
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="flex gap-3">
-                <ShieldCheck className="text-green-500 shrink-0 mt-1" size={20} />
-                <div>
-                  <h4 className="font-bold text-gray-900 dark:text-white">Strict Privacy</h4>
-                  <p className="text-sm text-gray-600 dark:text-gray-400">Runs 100% locally in your browser memory. Your documents never leave your device.</p>
-                </div>
-              </div>
-              <div className="flex gap-3">
-                <Zap className="text-indigo-500 shrink-0 mt-1" size={20} />
-                <div>
-                  <h4 className="font-bold text-gray-900 dark:text-white">Instant ZIP Packaging</h4>
-                  <p className="text-sm text-gray-600 dark:text-gray-400">Extracted pages are bundled into a standard ZIP archive with clean 3-digit page numbers (`page_001.pdf`).</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="border-t border-gray-100 dark:border-gray-700 pt-8">
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-              Frequently Asked Questions (FAQ)
-            </h2>
-            <div className="space-y-4">
-              <div className="p-4 rounded-xl bg-gray-50 dark:bg-gray-700/30">
-                <h4 className="font-bold text-gray-900 dark:text-white mb-1">What if I only want to extract a specific page range?</h4>
-                <p className="text-sm text-gray-600 dark:text-gray-400">You can use our <Link href="/tools/extract-pdf-pages" className="text-indigo-600 dark:text-indigo-400 underline font-medium">Extract PDF Pages</Link> tool to pick specific page ranges (e.g. 1-3, 5, 8-10) instead of splitting every page.</p>
-              </div>
-              <div className="p-4 rounded-xl bg-gray-50 dark:bg-gray-700/30">
-                <h4 className="font-bold text-gray-900 dark:text-white mb-1">Does splitting degrade the PDF resolution or vector quality?</h4>
-                <p className="text-sm text-gray-600 dark:text-gray-400">No. Every page retains its exact vector text, embedded TrueType fonts, high-resolution imagery, and document metadata.</p>
-              </div>
-            </div>
-          </div>
-        </section>
       </div>
     </div>
   );

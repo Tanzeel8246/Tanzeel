@@ -1302,6 +1302,391 @@ export const TOOL_SEO: Record<string, ToolSeoContent> = {
   ],
   "label": "Strong Password Generator"
 },
+'heic-to-jpg': {
+  slug: 'heic-to-jpg',
+  label: 'HEIC to JPG Converter',
+  searchTitle: 'HEIC to JPG Online Free – Convert iPhone Photos to JPG',
+  metaDescription: 'Convert HEIC and HEIF photos from your iPhone to JPG or PNG online for free, right in your browser. No upload, no signup, adjustable JPG quality.',
+  intro: [
+    'Every photo taken on a modern iPhone is saved in HEIC format by default. HEIC keeps files small on the phone, but it is a wall almost everywhere else: many Windows PCs, older Android phones, office printers, government portals and online application forms simply refuse to open it. This HEIC to JPG converter removes that wall. It decodes your .heic or .heif photo directly in your browser and hands you back a standard JPG — the format everything accepts — or a PNG if you prefer lossless output.',
+    'Unlike upload-based converters, your photo never travels to a server. The decoding runs on your own device using a WebAssembly version of the same HEVC technology your iPhone uses, so private family photos stay private. There is no account to create, no watermark on the result and no per-file fee. A quality slider lets you choose the balance between file size and sharpness before you download, and the tool shows you the original and converted sizes so you can see exactly what changed.',
+  ],
+  steps: [
+    {
+      title: 'Upload your HEIC photo',
+      text: 'Click the upload area and choose a .heic or .heif file from your phone or computer. On an iPhone, the photo is usually in your Files app or was received through AirDrop, email or a chat app in its original HEIC form.',
+    },
+    {
+      title: 'Choose JPG or PNG',
+      text: 'JPG is the default and the right choice for almost everything: forms, sharing, printing and uploading to websites. Choose PNG only when you need lossless quality and do not mind a larger file.',
+    },
+    {
+      title: 'Set the JPG quality',
+      text: 'For JPG output, use the slider to pick a quality level. Around 90% keeps the photo visually identical to the original for most people, while lower values produce noticeably smaller files for web use.',
+    },
+    {
+      title: 'Convert and download',
+      text: 'Click Convert Now. The first conversion takes a few extra seconds while the HEIC decoder loads; after that, click Download Converted Image and your JPG or PNG is saved with the same file name.',
+    },
+  ],
+  features: [
+    {
+      title: 'Real HEIC decoding, not a rename',
+      text: 'The tool actually decodes the HEVC image data inside the HEIC file using the heic2any WebAssembly decoder. Simply renaming a file to .jpg would not work — this produces a genuine JPG or PNG that opens in any app.',
+    },
+    {
+      title: 'Private by design',
+      text: 'Conversion happens entirely in your browser. Your photo is never uploaded, stored or shared, which matters for personal photos, ID scans and family pictures.',
+    },
+    {
+      title: 'Adjustable JPG quality',
+      text: 'A quality slider from 10% to 100% lets you trade file size against sharpness, and the result panel shows the before and after file sizes so the trade-off is visible.',
+    },
+    {
+      title: 'JPG and PNG output',
+      text: 'One page covers both common requests: HEIC to JPG for everyday sharing and forms, and HEIC to PNG when a lossless copy is needed for editing.',
+    },
+    {
+      title: 'Free, no watermark',
+      text: 'There is no signup, no payment step and nothing stamped on your converted photo. The downloaded file is the clean conversion of your original.',
+    },
+  ],
+  useCases: [
+    'Convert iPhone photos so they open on a Windows PC or older Android phone',
+    'Prepare photos for online forms and portals that only accept JPG uploads',
+    'Send iPhone pictures to family members whose phones cannot display HEIC',
+    'Convert product or property photos from an iPhone for a website or marketplace listing',
+    'Turn HEIC screenshots and scans into PNG for documents and assignments',
+  ],
+  tips: [
+    'If a form rejects your photo even after conversion, it is usually a file size limit, not the format. Lower the JPG quality slider to around 70–80% and convert again.',
+    'Keep the original HEIC file as your archive copy. HEIC stores more colour information than JPG, so the original remains the best master for future edits.',
+    'Very large HEIC photos (20 MB or more) can take a while on older phones because decoding happens on the device. Closing other heavy tabs helps.',
+    'For ordinary JPG, PNG or WebP files use the Image Converter tool instead — this page is specialised for HEIC and HEIF input only.',
+  ],
+  faqs: [
+    {
+      q: 'Why can my computer not open HEIC photos?',
+      a: 'HEIC is Apple\'s high-efficiency photo format. iPhones save it by default because it roughly halves photo file sizes, but support outside Apple devices is patchy: many Windows versions, older Android phones, printers and web portals cannot decode it without extra software. Converting to JPG solves this because JPG opens everywhere.',
+    },
+    {
+      q: 'Is it safe to convert personal photos here?',
+      a: 'Yes. The conversion runs completely inside your browser using a WebAssembly decoder — the file is never uploaded to a server. Nothing is stored or shared, so the photo exists only on your device before and after conversion.',
+    },
+    {
+      q: 'Will converting HEIC to JPG lose quality?',
+      a: 'JPG is a lossy format, so a conversion at low quality settings can soften fine detail. At the default 92% quality, the difference is not visible to most people in normal viewing and printing. If you need a mathematically lossless copy, choose PNG output instead — the file will be larger.',
+    },
+    {
+      q: 'What is the difference between HEIC and HEIF?',
+      a: 'They are effectively the same family: HEIF is the container standard and HEIC is the variant Apple uses for still photos compressed with HEVC. This tool accepts both .heic and .heif files and converts them the same way.',
+    },
+    {
+      q: 'Why did my first conversion take a few seconds?',
+      a: 'The HEIC decoder is a WebAssembly module of a few megabytes that your browser downloads and starts the first time you convert. It is cached afterwards, so later conversions in the same visit start faster. This one-time load is also why the tool can work without any server.',
+    },
+    {
+      q: 'Can I convert several HEIC photos at once?',
+      a: 'This version converts one photo at a time, which keeps it reliable on phones with limited memory. Convert, download, then repeat for the next photo. For a whole album, your iPhone can also export JPG copies through the Files app, though one-by-one conversion here gives you the quality slider.',
+    },
+  ],
+  related: [
+    { slug: 'image-convert', label: 'Image Converter' },
+    { slug: 'image-compressor', label: 'Image Compressor' },
+    { slug: 'image-resize', label: 'Image Resizer' },
+    { slug: 'exif-remover', label: 'EXIF / Metadata Remover' },
+    { slug: 'images-to-pdf', label: 'Images to PDF' },
+  ],
+},
+'passport-photo-maker': {
+  slug: 'passport-photo-maker',
+  label: 'Passport Photo Maker',
+  searchTitle: 'Passport Size Photo Maker Online Free – Exact mm Sizes & KB',
+  metaDescription: 'Make passport and visa photos online for free at exact official sizes — 35x45mm, 2x2 inch, China, Canada, Saudi and more — with a target file size in KB, in your browser.',
+  intro: [
+    'A passport or visa photo is rejected for surprisingly small reasons: a few millimetres too wide, the wrong file size for the online portal, or a crop that cuts the chin. This passport photo maker is built around the two things officials actually check — the physical size in millimetres and, for online applications, the file size in kilobytes. Choose from nine standard sizes used by passport offices, visa centres and ID departments, position your face in the guided frame, optionally set a KB target, and download a JPG produced at 300 DPI print resolution.',
+    'Everything happens in your browser. Your portrait is never uploaded to a server, which matters for identity photos. The sizes include 35 × 45 mm used in Pakistan and across Europe, the 2 × 2 inch format for US passports and visas, 33 × 48 mm for Chinese visas, 50 × 70 mm for Canadian passports, 40 × 60 mm used for Saudi and Hajj documentation, plus smaller ID sizes and a custom size option where you type any width and height in millimetres. If you set a KB target, the tool lowers quality step by step — and reduces pixel dimensions only if truly needed, telling you honestly when it does.',
+  ],
+  steps: [
+    {
+      title: 'Upload a clear portrait',
+      text: 'Choose a JPG or PNG photo taken facing the camera against a plain, light-coloured wall. Avoid sunglasses, caps and heavy shadows; the clearer the original, the better the official result.',
+    },
+    {
+      title: 'Pick the official size',
+      text: 'Select the size your application demands: 35 × 45 mm for Pakistan and EU documents, 2 × 2 inch for US visas, 33 × 48 mm for China, 50 × 70 mm for Canada, 40 × 60 mm for Saudi and Hajj, or enter a custom size in millimetres.',
+    },
+    {
+      title: 'Position the face in the frame',
+      text: 'Drag and resize the crop frame so the face is centred with the full head and shoulders visible. The frame is locked to the exact width-to-height ratio of the chosen size, so the proportions are always right.',
+    },
+    {
+      title: 'Set a KB target and download',
+      text: 'If an online portal limits uploads, choose under 50 KB, 100 KB or 200 KB; otherwise keep Best quality. Click Create Passport Photo, check the final size and dimensions shown, and download the JPG.',
+    },
+  ],
+  features: [
+    {
+      title: 'Nine official sizes plus custom',
+      text: 'Presets cover Pakistan/EU 35 × 45 mm, US 2 × 2 inch, China 33 × 48 mm, Canada 50 × 70 mm, Saudi/Hajj 40 × 60 mm, 30 × 40 mm, 25 × 35 mm and 1 × 1 inch — and a custom option accepts any size from 10 to 200 mm per side.',
+    },
+    {
+      title: 'Exact millimetres at 300 DPI',
+      text: 'Output dimensions are calculated from millimetres at 300 DPI, the standard print resolution — a 35 × 45 mm photo is produced at 413 × 531 pixels, so it prints at exactly the size the office measures.',
+    },
+    {
+      title: 'KB target for online portals',
+      text: 'Many application portals reject photos over 50, 100 or 200 KB. Pick a target and the tool reduces JPEG quality step by step until the file fits, showing you the real final size before you download.',
+    },
+    {
+      title: 'Guided crop frame',
+      text: 'The crop area is locked to the official aspect ratio and starts centred, so you only decide the position and zoom — the shape of the photo can never drift into the wrong proportions.',
+    },
+    {
+      title: 'Private by design',
+      text: 'Your portrait is processed entirely in your browser and never uploaded. Identity photos are among the most personal images you own, and here they stay on your device.',
+    },
+  ],
+  useCases: [
+    'Make a 35 × 45 mm photo for a Pakistani passport or CNIC-related application',
+    'Prepare a 2 × 2 inch photo for a US visa or passport application',
+    'Create a 33 × 48 mm photo for a Chinese visa application',
+    'Produce a 50 × 70 mm photo for a Canadian passport application',
+    'Make a 40 × 60 mm photo for Saudi, Hajj or Umrah documentation',
+    'Resize an ID photo to under 50 KB or 100 KB for an online admission or job portal',
+  ],
+  tips: [
+    'Take the photo against a plain light wall in daylight, facing the camera directly. This tool does not replace the background, so the wall behind you becomes the background of the official photo.',
+    'When printing at a studio or at home, choose "actual size" or 100% in the print dialog. If the printer scales the page, the carefully measured millimetres will change.',
+    'If a portal still rejects the file, check whether it wants a maximum in KB or exact pixel dimensions — the result panel shows both the file size and the pixel size so you can match its wording.',
+    'Keep some space above the head and below the shoulders in the frame. Most official guidelines want the face to fill roughly 70–80% of the height, not the entire frame.',
+  ],
+  faqs: [
+    {
+      q: 'What size is a passport photo in Pakistan?',
+      a: 'Pakistani passport photos use the international 35 × 45 mm size, which is the first preset in this tool. It is produced at 413 × 531 pixels (300 DPI), so it prints at exactly 35 × 45 mm when printed at actual size.',
+    },
+    {
+      q: 'Does this tool make the background white automatically?',
+      a: 'No — and it says so openly. This version crops and sizes your photo precisely, but it does not replace the background. Take the photo against a plain white or light-coloured wall for the best official result. The site\'s separate Background Remover tool can change a background first if you need that step.',
+    },
+    {
+      q: 'How do I get my photo under 100 KB for an online form?',
+      a: 'Choose the "Under 100 KB" target before creating the photo. The tool lowers the JPEG quality step by step until the file fits under 100 KB and then shows you the exact final size. For very small targets it may also reduce pixel dimensions slightly, and the result panel tells you when that happened.',
+    },
+    {
+      q: 'What does 300 DPI mean for my photo?',
+      a: 'DPI is print resolution: at 300 DPI, each millimetre becomes about 11.8 pixels, so a 35 × 45 mm photo is 413 × 531 pixels. That is the resolution print shops and passport offices expect, and it is why the file prints at exactly the stated physical size instead of stretching or shrinking.',
+    },
+    {
+      q: 'Can I use a custom size that is not in the list?',
+      a: 'Yes. Choose Custom size and type any width and height in millimetres between 10 and 200 mm per side. The crop frame, pixel dimensions and download all follow your custom measurements.',
+    },
+    {
+      q: 'Is my photo uploaded anywhere?',
+      a: 'No. Cropping, resizing and compression all run inside your browser. The photo never leaves your device, there is no account, and nothing is stored on a server — an important point for identity documents.',
+    },
+  ],
+  related: [
+    { slug: 'crop-image', label: 'Crop Image' },
+    { slug: 'image-resize', label: 'Image Resizer' },
+    { slug: 'image-compressor', label: 'Image Compressor' },
+    { slug: 'background-remover', label: 'Background Remover' },
+    { slug: 'heic-to-jpg', label: 'HEIC to JPG' },
+  ],
+},
+'compress-pdf': {
+  slug: 'compress-pdf',
+  label: 'Compress PDF',
+  searchTitle: 'Compress PDF Online Free – Reduce PDF Size, Keep Text',
+  metaDescription: 'Compress PDF files online for free in your browser: reduce PDF size by recompressing its data while keeping text selectable and copyable. No upload, no signup.',
+  intro: [
+    'Email limits, portal upload caps and slow connections all punish big PDFs. This compress PDF tool reduces a document\'s file size the careful way: it rebuilds the PDF with its internal data streams recompressed, using the qpdf engine running entirely in your browser. Nothing about the pages themselves is rewritten — your text stays selectable and copyable, links keep working, and embedded images remain part of the document. Your file is never uploaded to a server, so contracts, statements and ID documents stay on your own device.',
+    'One honest warning before you start, because this site does not hide limits: keeping a PDF fully intact means the saving is modest — typically around 5–20%. Documents exported with uncompressed data can shrink considerably more, while a PDF that was already produced by a good optimizer may barely shrink at all. The tool always shows you the true original and compressed sizes before you download, so you can judge the result yourself. If a portal demands a very small file, such as under 200 KB, this level of compression may not be enough on its own for a large document — in that case, splitting the PDF or reducing image-heavy pages first will help more.',
+  ],
+  steps: [
+    {
+      title: 'Upload your PDF',
+      text: 'Click the upload area and choose one PDF file from your phone or computer. The file is read into your browser\'s memory only — it is not sent anywhere.',
+    },
+    {
+      title: 'Compress the PDF',
+      text: 'Click Compress PDF. The qpdf engine loads (the first run takes a few extra seconds), then recompresses the document\'s streams and rebuilds its object structure in the most compact standard form.',
+    },
+    {
+      title: 'Compare the real sizes',
+      text: 'The result panel shows the original size, the compressed size and the exact percentage saved. If your PDF was already well optimized, the panel tells you plainly instead of pretending a big saving happened.',
+    },
+    {
+      title: 'Download the compressed file',
+      text: 'Click Download Compressed PDF. The file is your original document in a tighter structure — open it and you can still select, copy and search the text exactly as before.',
+    },
+  ],
+  features: [
+    {
+      title: 'Text stays selectable',
+      text: 'This compressor never converts pages into images. Text remains real text — selectable, copyable and searchable — and links, bookmarks and embedded images are carried through as document data.',
+    },
+    {
+      title: 'Real PDF engine (qpdf)',
+      text: 'Compression is done by qpdf, a well-known open-source PDF toolkit, compiled to WebAssembly. It recompresses content streams and generates compact object streams instead of just re-saving the file.',
+    },
+    {
+      title: 'Honest before/after sizes',
+      text: 'You always see the true original size, compressed size and percentage saved before downloading. If a file cannot shrink meaningfully, the tool says so rather than inflating the numbers.',
+    },
+    {
+      title: 'Private by design',
+      text: 'The whole process runs in your browser with no upload. Financial statements, contracts and identity documents never leave your device.',
+    },
+    {
+      title: 'Free, no watermark',
+      text: 'No signup, no payment step, and nothing is added to your document — no watermark, no cover page, no branding.',
+    },
+  ],
+  useCases: [
+    'Shrink a PDF so it fits an email attachment limit',
+    'Reduce a scanned document bundle before uploading it to an application portal',
+    'Make reports and e-books faster to share on slow connections',
+    'Tidy and recompress PDFs exported from office software with bloated structure',
+    'Prepare a smaller archive copy of a document while keeping its text searchable',
+  ],
+  tips: [
+    'Set expectations by file type: a PDF exported from a scanner app or office suite with uncompressed streams can shrink a lot; a PDF that came from a professional optimizer usually has little left to save.',
+    'If a portal demands under 200 KB and your document is image-heavy, compress alone may not reach it. Split the document with the Split PDF tool, or reduce the images before they are combined with Images to PDF.',
+    'Password-protected PDFs cannot be compressed — the engine cannot open encrypted files. Remove the password in the app that created the document first, then compress.',
+    'Very large PDFs (hundreds of pages or tens of megabytes) are processed in browser memory. If a big file fails on a phone, try the same file in a desktop browser with more memory available.',
+  ],
+  faqs: [
+    {
+      q: 'How much smaller will my PDF get?',
+      a: 'Typically around 5–20%, and the tool shows the exact result before you download. This compressor keeps your document fully intact, which limits how much can be saved: files exported with uncompressed data shrink the most, while already-optimized PDFs may not shrink at all. Any tool promising 90% savings on every file is usually converting pages to images, which destroys selectable text.',
+    },
+    {
+      q: 'Will the text in my PDF still be selectable after compression?',
+      a: 'Yes. Unlike image-based compressors, this tool never renders pages into pictures. It recompresses the PDF\'s internal data streams with qpdf and rebuilds the file structure, so text stays selectable and copyable, links keep working, and search inside the document still works.',
+    },
+    {
+      q: 'Is it safe to compress confidential documents here?',
+      a: 'Yes. Compression runs completely in your browser using a WebAssembly build of qpdf; your file is never uploaded to a server and nothing is stored. That makes it suitable for bank statements, contracts and identity documents, on a device you trust.',
+    },
+    {
+      q: 'Why did my PDF not get any smaller?',
+      a: 'Some PDFs are already produced in a highly compressed form — common with files from professional PDF software or modern office suites. In that case there is little redundant data left to remove, and the result panel will honestly show a saving near zero rather than a made-up number.',
+    },
+    {
+      q: 'Can this tool compress my PDF to exactly 200 KB or 100 KB?',
+      a: 'No, and it will not pretend otherwise. A structure-level compressor cannot dial in an exact target size the way image-based tools attempt to. If a portal requires a hard limit like 200 KB, combine this with splitting the document or reducing its images first; for image-based target sizes, that trade-off costs you selectable text.',
+    },
+    {
+      q: 'Why can a password-protected PDF not be compressed?',
+      a: 'The compression engine needs to read and rebuild the document\'s internal structure, and encryption prevents exactly that. Remove the password using the software that created or protects the file, then run the unprotected copy through this tool.',
+    },
+  ],
+  related: [
+    { slug: 'merge-pdf', label: 'Merge PDF' },
+    { slug: 'split-pdf', label: 'Split PDF' },
+    { slug: 'images-to-pdf', label: 'Images to PDF' },
+    { slug: 'pdf-to-images', label: 'PDF to Images' },
+    { slug: 'organize-pdf', label: 'Organize PDF' },
+  ],
+},
+'find-and-replace': {
+  slug: 'find-and-replace',
+  label: 'Find and Replace',
+  searchTitle: 'Find and Replace Text Online Free – Replace Words in Text',
+  metaDescription: 'Find and replace text online for free: replace every occurrence of a word or phrase in long text at once, with match-case and regex options. No signup.',
+  intro: [
+    'Every long document hides the same tedious job: a name spelled two ways, a product renamed halfway through writing, a date or price repeated forty times. Fixing each occurrence by hand is slow, and it is easy to miss one. This find and replace tool does the whole job in a single pass. Paste your text, type the word or phrase to find and what should replace it, and every occurrence in the document is swapped at once when you press Replace All.',
+    'Two options give you control over how matching works. By default the search ignores capitalisation, so "Report", "report" and "REPORT" are all treated as the same word; switch Match Case on when capitals matter and only exact matches should change. For pattern jobs — reformatting dates, codes or repeated spacing — turn on Regular Expression mode and search with a pattern instead of a fixed word. Everything runs in your browser: your text is never uploaded, which makes the tool safe for drafts, manuscripts and internal documents.',
+  ],
+  steps: [
+    {
+      title: 'Paste your text',
+      text: 'Paste the document, article or list into the large text box on the left. The tool works on the text exactly as pasted, however long it is.',
+    },
+    {
+      title: 'Type what to find and its replacement',
+      text: 'Enter the word or phrase in the Find box and the new wording in Replace With. Leave Replace With empty if you simply want to delete every occurrence of the found text.',
+    },
+    {
+      title: 'Choose your matching options',
+      text: 'Leave Match Case off to catch every capitalisation, or switch it on for exact matches only. Turn on Regular Expression when you need to match a pattern rather than one fixed phrase.',
+    },
+    {
+      title: 'Replace all and copy the result',
+      text: 'Press Replace All — every occurrence changes in one pass. Then use Copy Text to take the cleaned document back, or Clear to start a new job.',
+    },
+  ],
+  features: [
+    {
+      title: 'Every occurrence in one pass',
+      text: 'Replace All changes each match in the document at the same time. There is no stepping through results one by one and no risk of stopping halfway through a long text.',
+    },
+    {
+      title: 'Match Case control',
+      text: 'The default search is case-insensitive, catching "Word", "word" and "WORD" together. Enable Match Case when only the exact capitalisation should be replaced — essential for codes, names and abbreviations.',
+    },
+    {
+      title: 'Regular expression mode',
+      text: 'Switch on Use Regular Expression to find patterns instead of fixed words: dates in different formats, reference codes, double spaces, or any repeated structure a plain search cannot describe.',
+    },
+    {
+      title: 'Built for long texts',
+      text: 'The editor box is sized for chapters, reports and long lists, and the replacement runs instantly in the page. Paste a full document and clean it in seconds rather than page by page.',
+    },
+    {
+      title: 'Private by design',
+      text: 'Finding and replacing happens entirely in your browser on your own device. Nothing is uploaded to a server, so unpublished drafts and confidential documents stay where they belong.',
+    },
+  ],
+  useCases: [
+    'Correcting a misspelled name that appears throughout a long document',
+    'Renaming a product, character or place across a manuscript or report draft',
+    'Updating repeated prices, dates or version numbers in a draft list or document',
+    'Standardising spelling variants (for example organise/organize) before publishing',
+    'Cleaning pasted text with regex — collapsing double spaces or reformatting dates and codes',
+  ],
+  tips: [
+    'Keep a copy of the original text before a big replacement. The tool has no undo button, so pasting your saved copy back is the way to reverse a Replace All.',
+    'Deleting is a replacement too: leave Replace With empty to remove every occurrence of the found word or phrase.',
+    'In regex mode, test your pattern on a short sample first. A pattern that is broader than you intended will replace more than you expected.',
+    'If Match Case results surprise you, check capitalisation: with Match Case off, "Apple" the fruit and "apple" in a code name are treated as the same word.',
+  ],
+  faqs: [
+    {
+      q: 'Does this tool replace all occurrences or one at a time?',
+      a: 'All at once. Pressing Replace All swaps every occurrence of the Find text in the document in a single pass. There is no one-by-one mode, which is why keeping a copy of your original text before a large replacement is a good habit.',
+    },
+    {
+      q: 'What does Match Case do?',
+      a: 'With Match Case off (the default), the search ignores capitalisation, so "Report", "report" and "REPORT" all match. With it on, only text with exactly the same capitalisation as your Find entry is replaced — useful for names, codes and abbreviations where case carries meaning.',
+    },
+    {
+      q: 'What is the Regular Expression option for?',
+      a: 'Regular expressions let you search for a pattern instead of one fixed phrase — for example every date written as day/month/year, or runs of two or more spaces. It is a power option for cleanup jobs. If the pattern is not valid, the tool shows an alert and leaves your text unchanged.',
+    },
+    {
+      q: 'Can I delete words with this tool?',
+      a: 'Yes. Type the word or phrase in Find and leave Replace With completely empty, then press Replace All. Every occurrence is removed from the text. Check the spacing around removed words afterwards, as a deleted word can leave a double space behind — a quick regex pass for double spaces fixes that.',
+    },
+    {
+      q: 'Is my text uploaded or stored anywhere?',
+      a: 'No. The find and replace runs in your browser on your own device; the tool does not send your text to a server. That makes it suitable for unpublished drafts and private documents. Note that refreshing or closing the page discards the text in the box, so copy anything you want to keep.',
+    },
+    {
+      q: 'Is this find and replace tool free?',
+      a: 'Yes, completely free. Paste as much text as you need, run as many replacements as you like, and use the match-case and regex options without signing up, installing anything or paying for longer documents.',
+    },
+  ],
+  related: [
+    { slug: 'word-counter', label: 'Word Counter' },
+    { slug: 'case-converter', label: 'Case Converter' },
+    { slug: 'whitespace-remover', label: 'Whitespace Remover' },
+    { slug: 'reverse-text', label: 'Reverse Text' },
+    { slug: 'lorem-ipsum', label: 'Lorem Ipsum Generator' },
+  ],
+},
 };
 
 export function getToolSeo(slug: string): ToolSeoContent {
